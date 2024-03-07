@@ -31,10 +31,23 @@ function process_choice(result) {
 }
 
 /**
- * main function of the program
- * @returns {void}
+ * fetch data from the url
+ * @param {string} url - the url to fetch data
+ * @returns {Promise<Object>} the result
  */
-function main() {
+async function fetch_demo(url = "https://api.github.com/users/github") {
+  const spinner = ora("Fetching data...").start();
+  const response = await fetch(url);
+  const data = await response.json();
+  spinner.succeed("Data fetched successfully!");
+  return data;
+}
+
+/**
+ * main function of the program
+ * @returns {Promise<void>} the result
+ */
+async function main() {
   show_logo();
   program.version("1.0.0").description("My Node CLI");
   program.action(async () => {
@@ -50,6 +63,7 @@ function main() {
   });
   program.parse(process.argv);
   console.info(`invoke times_str: ${times_str(3, "hello")}`);
+  console.info(`fetch some sample data: ${await fetch_demo()}`);
 }
 
 main();
