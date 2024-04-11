@@ -1,10 +1,22 @@
-# Node.js template
+# esm-template
 
-This is a Node.js project.
+This is a simple NodeJS template project.
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
+## Support features
 
-## Resources
+- Default esm module support
+- Type support in pure javascript
+- Auto doc generation, need to write doc comments
+- Format and Lint support
 
-- [CodeSandbox — Docs](https://codesandbox.io/docs/learn)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
+## TODOs
+
+- [ ] Add unit tests
+- [ ] Add github actions for testing
+
+
+## License
+
+MIT License
+
+Copyright (c) 2024 liudonghua
