@@ -11,7 +11,7 @@ This is a simple NodeJS template project.
 
 ## TODOs
 
-- [ ] Add unit tests
+- [x] Add unit tests
 - [ ] Add github actions for testing
 
 
