@@ -1,5 +1,7 @@
 # esm-template
 
+[![Node.js CI](https://github.com/liudonghua123/esm-template/actions/workflows/node.js.yml/badge.svg)](https://github.com/liudonghua123/esm-template/actions/workflows/node.js.yml)
+
 This is a simple NodeJS template project.
 
 ## Support features
@@ -12,7 +14,7 @@ This is a simple NodeJS template project.
 ## TODOs
 
 - [x] Add unit tests
-- [ ] Add github actions for testing
+- [x] Add github actions for testing
 
 
 ## License
