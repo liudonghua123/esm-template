@@ -1,6 +1,6 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { say_hello, times_str } from "../src/utli.js";
+import { say_hello, times_str } from "../src/util.js";
 
 describe('utli testing', () => {
     const message = 'hi'

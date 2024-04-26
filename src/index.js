@@ -6,7 +6,7 @@ import chalk from "chalk";
 import inquirer from "inquirer";
 import ora from "ora";
 import figlet from "figlet";
-import { say_hello, times_str } from "./utli.js";
+import { say_hello, times_str } from "./util.js";
 
 /**
  * show the logo
